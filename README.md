@@ -61,7 +61,7 @@ save_dir = './output'
 
 ### 3. 切换模型
 在训练部分，你可以通过修改 model_name 来切换不同的模型进行训练：
-# 例如切换为 Transformer
+例如切换为 Transformer
 model_name = 'Transformer1D_pt'
 train_loader, val_loader, test_loader = generate_dataloaders_pt(
     model_name, X_train, y_train, ...
