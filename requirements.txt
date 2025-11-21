@@ -1,0 +1,22 @@
+# 深度学习框架 (CUDA 12.1 版本)
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# 数据处理与科学计算
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+
+# 信号处理
+librosa==0.11.0
+
+# 可视化
+matplotlib==3.10.6
+seaborn==0.13.2
+bokeh==3.8.0
+
+# 工具
+tqdm==4.67.1
+optuna==4.5.0

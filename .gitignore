@@ -1,0 +1,7 @@
+# 忽略 PyTorch 模型权重文件
+output/PyTorch/dict_models/
+output/PyTorch/full_models/
+
+# 也可以加上文件后缀以防万一
+*.pth
+*.pt
