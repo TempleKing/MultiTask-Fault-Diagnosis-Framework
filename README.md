@@ -75,7 +75,6 @@ train_loader, val_loader, test_loader = generate_dataloaders_pt(
 ---
 
 ## 📁 目录结构 (Directory Structure)
-.
 ├── dl-pytorch-regression.ipynb    # 核心代码
 ├── requirements.txt               # 依赖列表
 ├── README.md                      # 说明文档
