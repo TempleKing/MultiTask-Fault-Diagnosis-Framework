@@ -49,9 +49,9 @@
 
 ### 1. 安装依赖
 请确保安装了以下 Python 库：
-
-```bash
+```
 pip install -r requirements.txt
+```
 
 ### 2. 运行项目
 在代码的 Setup 部分，修改 data_dir 指向你存放 CWRU .mat 文件的文件夹路径：
@@ -67,10 +67,12 @@ train_loader, val_loader, test_loader = generate_dataloaders_pt(
     model_name, X_train, y_train, ...
 )
 
+---
 
 ## 📊 实验结果示例 (Results)
 模型训练完成后，会自动在 ./output/PyTorch/metrics/ 目录下生成详细的 CSV 报告。
 
+---
 
 ## 📁 目录结构 (Directory Structure)
 .
