@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### 2. 运行项目
 在代码的 Setup 部分，修改 data_dir 指向你存放 CWRU .mat 文件的文件夹路径：
-# 示例
+示例
 data_dir = './data/cwru' 
 save_dir = './output'
 
